@@ -14,13 +14,26 @@ public class Conditions {
         // }
 
         // Check even and odd numbers
-        int x = sc.nextInt();
-        if (x % 2 == 0) {
-            System.out.println("Even Number");
-        }
+        // int x = sc.nextInt();
+        // if (x % 2 == 0) {
+        // System.out.println("Even Number");
+        // }
 
-        else {
-            System.out.println("Odd NUmber");
+        // else {
+        // System.out.println("Odd NUmber");
+        // }
+
+        // check conditions
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a == b) {
+            System.out.println("Equals");
+        } else if (a > b) {
+            System.out.println("A is grater then b");
+        } else {
+            System.out.println("B is grater then A");
         }
     }
 }
