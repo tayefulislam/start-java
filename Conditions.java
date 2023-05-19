@@ -25,15 +25,34 @@ public class Conditions {
 
         // check conditions
 
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
 
-        if (a == b) {
-            System.out.println("Equals");
-        } else if (a > b) {
-            System.out.println("A is grater then b");
-        } else {
-            System.out.println("B is grater then A");
+        // if (a == b) {
+        // System.out.println("Equals");
+        // } else if (a > b) {
+        // System.out.println("A is grater then b");
+        // } else {
+        // System.out.println("B is grater then A");
+        // }
+
+        // Break
+
+        int button = sc.nextInt();
+
+        switch (button) {
+            case 1:
+                System.out.println("Green");
+                break;
+            case 2:
+                System.out.println("Yellow");
+                break;
+            case 3:
+                System.out.println("Red");
+                break;
+            default:
+                System.out.println("Invalid COde");
+
         }
     }
 }
