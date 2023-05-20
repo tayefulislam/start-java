@@ -76,21 +76,51 @@ public class Pratice {
         /* Loops Practice */
 
         /* Problem No 1 : Print the sum of the first n Natural Number */
-        int n = sc.nextInt();
-        int sum = 0;
+        // int n = sc.nextInt();
+        // int sum = 0;
         // for (int i = 1; i <= n; i++) {
         // sum += i;
         // }
 
         /* With while */
 
-        int i = 1;
-        while (i <= n) {
-            sum += i;
-            i++;
-        }
-        System.out.print("Total sum : ");
-        System.out.println(sum);
+        // int i = 1;
+        // while (i <= n) {
+        // sum += i;
+        // i++;
+        // }
+        // System.out.print("Total sum : ");
+        // System.out.println(sum);
+
+        /* Problem No 2 : Print the table of the input by user */
+        // System.out.print("Please an number : ");
+        // int n = sc.nextInt();
+
+        // for (int i = 1; i < 11; i++) {
+        // System.out.print(n);
+        // System.out.print(" X ");
+        // System.out.print(i);
+        // System.out.print(" = ");
+
+        // System.out.println(n * i);
+
+        // }
+
+        /*
+         * Ans : if n=2
+         * 
+         * Please an number : 2
+         * 2 X 1 = 2
+         * 2 X 2 = 4
+         * 2 X 3 = 6
+         * 2 X 4 = 8
+         * 2 X 5 = 10
+         * 2 X 6 = 12
+         * 2 X 7 = 14
+         * 2 X 8 = 16
+         * 2 X 9 = 18
+         * 2 X 10 = 20
+         */
 
     }
 }

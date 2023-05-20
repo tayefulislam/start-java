@@ -8,22 +8,22 @@ public class Loops {
 
         /* while loop */
 
-        int i = 12;
-
-        while (i < 10) {
-            System.out.print(i);
-            i++;
-
-        }
-
-        /* Do While */
-
         // int i = 12;
 
-        do {
-            System.out.println("Hello");
-            i++;
-        } while (i < 10);
+        // while (i < 10) {
+        // System.out.print(i);
+        // i++;
+
+        // }
+
+        // /* Do While */
+
+        // // int i = 12;
+
+        // do {
+        // System.out.println("Hello");
+        // i++;
+        // } while (i < 10);
 
     }
 }
