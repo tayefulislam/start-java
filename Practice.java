@@ -29,50 +29,49 @@ public class Practice {
          * 
          */
 
-        // int a = sc.nextInt();
-        // String button = sc.next();
-        // int b = sc.nextInt();
+        int a = sc.nextInt();
+        String button = sc.next();
+        int b = sc.nextInt();
 
-        /*
-         * switch (button) {
-         * case "+": {
-         * int add = a + b;
-         * System.out.print("Addition:");
-         * System.out.println(add);
-         * }
-         * break;
-         * 
-         * case "-": {
-         * int subtra = a - b;
-         * System.out.print("Subtraction:");
-         * System.out.println(subtra);
-         * }
-         * break;
-         * case "*": {
-         * int multi = a * b;
-         * System.out.print("Multiplication:");
-         * System.out.println(multi);
-         * }
-         * break;
-         * 
-         * case "/": {
-         * int divi = a / b;
-         * System.out.print("Division:");
-         * System.out.println(divi);
-         * }
-         * break;
-         * 
-         * case "%": {
-         * int modulo = a % b;
-         * System.out.print("Modulo:");
-         * System.out.println(modulo);
-         * }
-         * 
-         * default:
-         * System.out.println("In valid entry");
-         * 
-         * }
-         */
+        switch (button) {
+            case "+": {
+                int add = a + b;
+                System.out.print("Addition:");
+                System.out.println(add);
+            }
+                break;
+
+            case "-": {
+                int subtra = a - b;
+                System.out.print("Subtraction:");
+                System.out.println(subtra);
+            }
+                break;
+            case "*": {
+                int multi = a * b;
+                System.out.print("Multiplication:");
+                System.out.println(multi);
+            }
+                break;
+
+            case "/": {
+                int divi = a / b;
+                System.out.print("Division:");
+                System.out.println(divi);
+            }
+                break;
+
+            case "%": {
+                int modulo = a % b;
+                System.out.print("Modulo:");
+                System.out.println(modulo);
+            }
+
+            default:
+                System.out.println("In valid entry");
+
+        }
+
         /* Loops Practice */
 
         /* Problem No 1 : Print the sum of the first n Natural Number */
