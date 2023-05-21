@@ -121,5 +121,7 @@ public class Practice {
          * 2 X 10 = 20
          */
 
+        sc.close();
+
     }
 }
