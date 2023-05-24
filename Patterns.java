@@ -60,20 +60,61 @@ public class Patterns {
 
         /* Inverted half pyramid - Rotated By 180 */
 
-        int n = 7;
-        // Outer Loop
+        // int n = 7;
+        // // Outer Loop
+
+        // for (int i = 1; i <= n; i++) {
+
+        // for (int j = 1; j <= n - i; j++) {
+        // System.out.print(" ");
+        // }
+
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+
+        // }
+
+        /* Half Pyramid with Numbers */
+        // int n = 5; // raw number
+
+        // for (int i = 1; i <= n; i++) {
+
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(j + " ");
+        // }
+
+        // System.out.println();
+
+        // }
+
+        /* Inverted Half Pyramid With Number */
+
+        // int n = 5;
+
+        // for (int i = 1; i <= n; i++) {
+
+        // for (int j = 1; j <= n - i + 1; j++) {
+        // System.out.print(j + " ");
+        // }
+
+        // System.out.println();
+        // }
+
+        // Floyd's Triangle
+
+        int n = 5;
+
+        int number = 1;
 
         for (int i = 1; i <= n; i++) {
 
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
-            }
-
             for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+                System.out.print(number + " ");
+                number++;
             }
             System.out.println();
-
         }
 
     }
