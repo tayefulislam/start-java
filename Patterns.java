@@ -144,13 +144,11 @@ public class Patterns {
 
         for (int i = 1; i <= n; i++) {
 
-            for (int j = 1; j <= n - 1; j++) {
-                System.out.print(".");
-            }
-            for (int j = 1; j <= n; j++) {
+            for (int j = 1; j <= n - 1; j--) {
                 System.out.print("*");
             }
-            System.out.println();// for line break
+
+            System.out.println();
         }
     }
 
